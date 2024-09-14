@@ -557,7 +557,7 @@ b, strong {
 
 @media (max-width: 580px) {
 	.animated-info {
-		max-width: 300px;
+		min-width: 150px;
 	}
 
   .animated-item {

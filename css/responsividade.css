@@ -1,0 +1,21 @@
+@media (max-width: 992px) {
+    .secao-com-texto{
+        padding: 153px 25px;
+    }
+
+    .secao-com-texto p,
+    .secao-com-texto.onde-estamos p {
+        width: 100%;
+    }
+}
+
+@media (max-width: 425px) {
+    .secao-com-texto h2 {
+        font-size: 3rem;
+    }
+
+    .secao-com-texto.secao-com-texto.onde-estamos p {
+        font-size: 2rem;
+    }
+
+}

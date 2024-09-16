@@ -200,7 +200,7 @@ b, strong {
   z-index: 999999;
   will-change: transform;
   transition: transform 200ms linear;
-  background-color: #fdf7f5;
+  background-color: #87758d77;
   border-bottom: 1.5px solid white;
 }
 .navbar[class*="-unpinned"] {
@@ -372,14 +372,15 @@ b, strong {
 }
 
 .timeline-yr {
-  background: #474559;
+  background: #a56262;
   border-radius: 100%;
   position: absolute;
-  width: 75px;
-  height: 75px;
+  width: 90px;
+  height: 90px;
   line-height: 75px;
   text-align: center;
 }
+
 .timeline-yr span {
   color: #ffffff;
   font-size: 16px;
@@ -394,8 +395,9 @@ b, strong {
   max-width: 432px;
   margin-left: 6em;
 }
+
 .timeline-info small {
-  color: #474559;
+  color: #da29c8;
   font-size: 16px;
   font-weight: bold;
   display: inline-block;
@@ -445,8 +447,8 @@ b, strong {
   width: 8px;
   height: 8px;
 }
-.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
-  background: #5b5b5b;
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover img {
+  background: #970b8c;
 }
 
 .google-map iframe {
@@ -555,13 +557,14 @@ b, strong {
   }
 }
 
-@media (max-width: 580px) {
+@media (max-width: 580px)   {
 	.animated-info {
-		min-width: 150px;
+		min-width: 50px;
 	}
 
   .animated-item {
-    font-size: 38px;
+    margin-top: 8px;
+    font-size: 32px;
   }
 
   .about-image {
@@ -691,4 +694,58 @@ b, strong {
 .carousel-indicators li {
   border-radius: 50px;
   background-color: #a87ea8!important;
+}
+
+/* Servicos */
+.servicos {
+  padding-top: 100px;
+  padding-bottom: 150px;
+}
+
+.hint-title {
+  color: var(--color-primary);
+  font-size: 16px;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+}
+
+.title {
+  color: var(--color-black);
+  font-size: 40px;
+  margin-top: 5px;
+  margin-bottom: 30px;
+}
+
+.card-icon {
+  height: 150px;
+  margin-top: 0 auto;
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 52px;
+}
+
+.card-icon img {
+  border-radius: 52px;
+}
+
+.card-text {
+  color: var(--color-text-out);
+  font-size: 18px;
+  padding: 0 30px;
+}
+
+.card-text p {
+  font-size: 30px;
+  color: #0c0c0d;
+  margin-bottom: 10px;
+}
+
+.background-servicos {
+  position: absolute;
+  left: 0;
+  right: 0;
+  height: 500px;
+  background-image: url(../img/bg-icons-2.png);
 }
